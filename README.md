@@ -133,7 +133,7 @@ cosmic = reg.by_scale(Scale.COSMIC)    # 124 cosmic-scale modules
 
 # Validate cross-references
 from hierarchia.validator import validate_hierarchy
-report = validate_hierarchy(".")       # 0 errors, 43 warnings (unresolved xrefs)
+report = validate_hierarchy(".")       # 0 errors, 49 warnings (unresolved xrefs)
 ```
 
 ### Command line
